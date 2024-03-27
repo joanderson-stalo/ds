@@ -11,7 +11,6 @@
     "rollup": "rollup -c --bundleConfigAsCjs",
     "preview": "vite preview",
     "test": "vitest",
-    "deploy-storybook": "storybook-to-ghpages",
     "lint-fix-all": "eslint src --ext .ts,.tsx --fix",
     "lint-status": "eslint --fix --color -o ./lint/report.html -f html \"./src/**/*.{ts,tsx,js,jsx}\"",
     "storybook": "storybook dev -p 6006",
